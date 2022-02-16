@@ -10,6 +10,10 @@ body {
   flex-direction: column;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 header {
   background-color: black;
   color: white;
@@ -33,8 +37,6 @@ header {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  // min-height: 350px;
-  // max-height: 750px;
 }
 
 #video-container:after {
@@ -51,7 +53,7 @@ header {
   margin: auto;
   height: auto;
   max-height: calc(100% - 80px);
-  padding-top: 20px;
+  padding: 20px;
 
   .top {
     background: red;

@@ -17,8 +17,8 @@ function setVideoSize() {
 setVideoSize();
 
 function setVideoContainerHeight() {
-  let windowWidth = $(window).innerWidth();
-  $videoContainer.css('max-height', windowWidth / aspectRatio);
+  let webinarElWidth = $('#webinar').width()
+  $videoContainer.css('max-height', webinarElWidth / aspectRatio);
 }
 setVideoContainerHeight();
 
